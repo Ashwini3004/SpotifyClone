@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  html {
+    overflow-y: scroll;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* li== {
+    list-style-type: none;
+  } */
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    height: 50px;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  #logo {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #logo h3 {
+    /* color: red; */
+    display: inline-block;
+    /* color: #fff; */
+  }
+  nav ul {
+    margin-left: 400px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  nav ul li:hover {
+    color: #ccc;
+  }
+
+  #getSpotifyFree{
+    background:linear-gradient(#0e0e0e,#292525);
+    height: 25rem;
+    display:flex;
+    justify-content: space-around;
+  }
+  #getSpotifyFree::after{
+    content:"";
+    background: linear-gradient(#2e1b44, #2c2d3a);
+    width: 50px;
+    height: 550px;
+    /* border-radius: 50%; */
+    opacity: 0.3;
+    z-index: 0;
+  }
+
+#getSpotifyFree::after{
+        content:"";
+        background: linear-gradient(#2e1b44, #2c2d3a);
+        width: 250px;
+        height: 550px;
+        border-radius: 50%;
+        opacity: 0.3;
+        z-index: 0;
+  }
+  #getSpotifyFree::before{
+    content:"";
+    background: linear-gradient(#7d7e80, #371440);
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    opacity:0.3;
+    top:50px;
+    left:1px;
+    z-index: 0;
+  }
+  #freeImageContainer {
+    width: 500px;
+    height: 400px;
+    z-index: 0;
+  }
+  
+  #phoneShot {
+    width: 12rem;
+    height: rem;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* filter: invert(100%) sepia(100%) saturate(95%) hue-rotate(66deg)
+      brightness(95%) contrast(80%); */
+  }
+  
+  /* #phoneShot {
+    width: 168px;
+    height: 268px;
+    position: absolute;
+    top: 132px;
+    left: 357px;
+    z-index: 0;
+  } */
+  #playMillionSong{
+    color:#fff;
+    margin-top:120px;
+    font-size:20px;
+    margin-left:50px ;
+
+  }
+  #playMillionSong a{
+    color:#000;
+    padding:2px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  #playMillionSong a:hover{
+    color:#ddd;
+  }
+  #personalInfo{
+    color:#fff;
+    margin-top:120px;
+    font-size:10px;
+    margin-right:-210px;
+ }
+ .questionCard {
+    margin: auto;
+  }
+  
+  .questionCardHeading {
+    margin-left: 200px;
+    background: #f8f8f8;
+    padding: 5px;
+    border: 0.1px solid rgb(189, 181, 181);
+    width: 300px;
+    cursor: pointer;
+  }
+  .questionHide {
+    display: none;
+  }
+  .questionShow {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.1px solid #ccc;
+    border-right: 0.1px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
+    color:#fff
+  }
+  .questionShow p {
+    color: #616060;
+    margin: 10px;
+    font-size: 10px;
+  }
+  footer {
+    width: 100vw;
+    height:50vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  
+  #mainFoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+  }
+  
+  #footerLinks {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #footerLinks div {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  
+  #footerLinks ul li:first-of-type {
+    font-size: 10px;
+    color: #ccc;
+    font-weight: bolder;
+    cursor: unset;
+  }
+  
+  #footerLinks ul li:first-of-type:hover {
+    color: #ccc;
+  }
+  
+  #footerLinks ul li {
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  #footerLinks ul li:hover {
+    color: greenyellow;
+  }
+  #socialFoot {
+    margin-top: 50px;
+  }
+  
+  #socialFoot span {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* foot logo */
+  #footLogo h3 {
+    display: inline-block;
+  }
+  
+  /* tailFooter */
+  
+  #tailFooter {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #tailFooter ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  
+  
+  #footLoc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #ccc;
+  }
+  
+  
+ 
